@@ -1,0 +1,48 @@
+Print("1 para suma")
+Print("2 para resta")
+Print("3 para multiplicacion")
+Print("4 para division")
+Print("5 para division entera")
+operando = Input("Ingrese la operacion que desea realizar")
+valor1 = Input("Ingrese el primer numero")
+valor2 = Input("Ingrese el segundo numero")
+
+divisionEntreCero = 0
+if valor2==0 {
+	if operando == 4
+	{
+		divisionEntreCero = 1
+	}
+	if operando == 5
+	{
+		divisionEntreCero = 1
+	}
+}
+while divisionEntreCero == 1 {
+	valor2 = Input("No se puede dividir entre 0 por favor ingrese otro numero")
+	if valor2 != 0 {
+		divisionEntreCero = 0
+	}
+
+}
+
+if operando == 1 {
+	resultado = valor1 + valor2
+}
+
+if operando == 2 {
+	resultado = valor1 - valor2
+}
+
+if operando == 3 {
+	resultado = valor1 * valor2
+}
+
+if operando == 4 {
+	resultado = valor1 / valor2
+}
+
+if operando == 5 {
+	resultado = valor1 % valor2
+}
+Print(resultado)

@@ -1,0 +1,25 @@
+T__0=1
+T__1=2
+T__2=3
+T__3=4
+T__4=5
+T__5=6
+T__6=7
+T__7=8
+T__8=9
+ID=10
+NUM=11
+STRING=12
+SUM_OPERATOR=13
+MUL_OPERATOR=14
+COMPARATION_OPERATOR=15
+WS=16
+'while'=1
+'{'=2
+'}'=3
+'if'=4
+'='=5
+'= Input('=6
+')'=7
+'Print('=8
+'('=9
